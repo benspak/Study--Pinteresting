@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap a quick Front End Development dundle.
 gem 'bootstrap-sass'
 
+# Divise Gem Allows User Registration
+gem 'devise',	'~> 3.1.0.rc2'
+
 group :development, :test do
 	# Use sqlite3 as development database 
 	gem 'sqlite3'
