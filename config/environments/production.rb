@@ -77,4 +77,7 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Required for Devise mail features (Forgot Password, Confirm Email, Ect) to work.
+  config.action_mailer.default_url_options = { :host => 'http://pinteresting-bnspak.herokuapp.com/' }
 end
